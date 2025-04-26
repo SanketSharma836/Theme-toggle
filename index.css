@@ -1,0 +1,25 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  body.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body.dark {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
